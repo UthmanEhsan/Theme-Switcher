@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multiple theme switcher</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- navbar  -->
+    <nav class="container">
+        <div class="branding">
+            Theme Switcher
+        </div>
+
+        <div class="navbar">
+            <ul>
+                <li><a href="#">Tutorials</a></li>
+                <li><a href="#">Courses</a></li>
+                <li>
+                    <select name="" id="themeSwitcher">
+                        <option value="">Select a theme</option>
+                        <option value="theme-light">Light</option>
+                        <option value="theme-dark">Dark</option>
+                        <option value="theme-ocean">Ocean</option>
+                        <option value="theme-sepia">Sepia</option>
+
+                    </select>
+                </li>
+            </ul>
+        </div>
+        <div class="mobile-navbar-btn">
+            <ion-icon name="menu-outline" class="mobile-nav-icon"></ion-icon>
+            <ion-icon name="close-outline" class="mobile-nav-icon"></ion-icon>
+        </div>
+    </nav>
+
+    <!-- main header -->
+    <header class="container">
+        <div>
+            <h1>Learn Programming easy way</h1>
+            <p>Million of developers already found their dream jobs</p>
+            <button type="button">Join Now</button>
+        </div>
+        <div class="hero-image">
+            <img src="joshua-aragon-BMnhuwFYr7w-unsplash.jpg"
+                alt="">
+        </div>
+    </header>
+
+    <!-- section Tutorials -->
+    <section class="tutorials"></section>
+
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script src="sun.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
